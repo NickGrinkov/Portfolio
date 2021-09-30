@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="home" class="wrapper">
+      <header class="header hide">
+        <ul class="header_list hide">
+          <a class="header_list_item" id='home' href="#home"><li >Home</li></a>
+          <a class="header_list_item" href="#aboutMe"><li>About me</li></a>
+          <a class="header_list_item" href="#skills"><li>Skills</li></a>
+          <a class="header_list_item" href="#portfolio"><li>Portfolio</li></a>
+          <a class="header_list_item" href="#contacts"><li>Contacts</li></a>
+        </ul>
+      </header>
+      <div class="burger">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class='wrapper_content'>
+        <section class="present">
+          <div class="present_wrapper">
+            <div class="present_name">Denis<br />Novik</div>
+            <div class="present_info">
+              UX | UI <br> designer<br />Minsk
+            </div>
+          </div>
+          <img src="./img/foto.png" alt="foto" class="present_img" />
+        </section>
+        
+        <section id='aboutMe' class="inform">
+          <div class="inform_wrapper">
+            <a  href="#"><h2 class="inform_header">About me</h2></a>
+            <div class="inform_text">
+              <p class="inform_text_item">
+                Hi, I'm Denis – UX/UI designer from Minsk.<br />
+                I'm interested in design and everything connected with it.
+              </p>
+              <p class="inform_text_item">
+                I'm studying at courses "Web and mobile design<br />
+                interfaces" in IT-Academy.
+              </p>
+              <p class="inform_text_item">
+                Ready to implement excellent projects<br />
+                with wonderful people.
+              </p>
+            </div>
+          </div>
+        </section>
+  
+        <section id='skills' class="skills">
+          <div class="skills_wrapper">
+            <a  href="#home"><h2 class="skills_header">Skills</h2></a>
+            <p class="skills_prog">I work in such program as</p>
+            <ul class="skills_list">
+                <li class="skills_list_item">
+                    <img src="./img/photoshop.png" alt="">
+                    <p>Photoshop</p>
+                </li>
+                <li class="skills_list_item">
+                  <img src="./img/illustrator.png" alt="">
+                  <p>Illustrator</p>
+              </li>
+              <li class="skills_list_item">
+                  <img src="./img/afterEffects.png" alt="">
+                  <p>After Effects</p>
+              </li>
+              <li class="skills_list_item">
+                  <img src="./img/figma.png" alt="">
+                  <p>Figma</p>
+              </li>
+            </ul>  
+            </div>
+        </section>
+  
+        <section id='portfolio' class="portfolio">
+          <div class="portfolio_wrapper">
+            <a  href="#home"><h2 class="portfolio_header">Portfolio</h2></a>
+            <div class="portfolio_item">
+              <img src="./img/portImg1.png" alt="">
+              <a href="#">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio_item">
+              <img src="./img/portImg2.png" alt="">
+              <a href="#">Reebok Store - Concept</a>
+            </div>
+            <div class="portfolio_item">
+              <img src="./img/portImg3.png" alt="">
+              <a href="#">Braun Landing Page - Concept</a>
+            </div>
+          </div>
+        </section>
+  
+        <section id='contacts' class="contacts">
+            <div class="contacts_wrapper">
+              <a  href="#home"><h2 class="contacts_header">Contacts</h2></a>
+              <p  class="contacts_text">Want to know more or just chat? <br> You are welcome!</p>
+              <button  class="contacts_btn" type="button">Send message</button>
+              <ul class="contacts_list">
+                  <a href="#" class="contacts_list_item"><img src="./img/linkedin.png" alt=""></a>
+                  <a href="#" class="contacts_list_item"><img src="./img/insta.png" alt=""></a>
+                  <a href="#" class="contacts_list_item"><img src="./img/be.png" alt=""></a>
+                  <a href="#" class="contacts_list_item"><img src="./img/ball.png" alt=""></a>
+              </ul>
+              <p class="contacts_network">Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </section>
+      </div>
+    </div>
+    <script src="../dist/index.js"></script>
+  </body>
+</html>
